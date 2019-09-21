@@ -13,3 +13,20 @@
 - CSS Basic, 
 - Javascript Basic,  
 - Photoshop, CorelDraw.
+
+### Code examples:
+Find numbers which are divisible by given number:
+```
+function divisibleBy(numbers, divisor){
+return numbers.filter((x) => !(x % divisor));
+}
+```
+Incrementer:
+```
+function incrementer(nums) {
+  return nums.map((item, index)=>{
+    const num = item + ++index;
+    return num < 10 ? num : num % 10;
+  });
+}
+```
