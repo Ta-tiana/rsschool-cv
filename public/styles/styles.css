@@ -71,3 +71,37 @@ h1 {
 h2 {
   border-radius: 60%;
 }
+
+a {
+  font-size: 1.2rem;
+  color: rgb(238,127,154);
+  text-decoration: none;
+}
+
+nav a:hover {
+  position: relative;
+  bottom: 5px;
+
+  color: deeppink;
+}
+
+a:hover:not(img) {
+  color: rgb(113, 76, 180);
+
+  text-decoration-color: rgb(136, 205, 215);
+}
+
+p,
+li {
+  font-size: 18px;
+}
+
+.cv {
+  align-items: flex-start;
+  margin: 0;
+
+  font-size: 14px;
+  text-align: center;
+  color: rgb(249,208,218);
+  letter-spacing: 8px;
+}
