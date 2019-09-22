@@ -40,6 +40,37 @@
               <li>Photoshop, CorelDraw.</li>
             </ul>
           </section>
+          <section>
+            <h2>Code examples:</h2>
+            <figure>
+              <figcaption>
+                <p>Find numbers which are divisible by given number:</p>
+              </figcaption>
+              <pre>
+                  <code>
+                      function divisibleBy(numbers, divisor) {
+                      &emsp;return numbers.filter((x) => !(x % divisor));
+                      }
+                  </code>
+              </pre>
+            </figure>
+            <figure>
+              <figcaption>
+                <p>Incrementer:</p>
+              </figcaption>
+              <pre>
+                  <code>
+                      function incrementer(nums) {
+                       &emsp;return nums.map((item, index) => {
+                       &emsp; &emsp;const num = item + ++index;
+                       &emsp; &emsp; &emsp;return num &lt; 10 ? num : num % 10;
+                       &emsp;});
+                      }
+                  </code>
+              </pre>
+            </figure>
+          </section>
+
         </article>
       </main>
     </div>
