@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link href="https://db.onlinewebfonts.com/c/cbaea721c8ca0bcb961b76bd184f7797?family=beer+money" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Code&display=swap" rel="stylesheet">
+    <link href="public/styles/styles.css" rel="stylesheet">
+    <title>Curriculum Vitae</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <figure>
+          <img src="public/images/avatar.png" width="200" height="200" alt="avatar">
+        </figure>
+        <h1>Tatiana Harlamova</h1>
+        <nav>
+          <a href="mailto:ustinya88@gmail.com"><img src="public/images/email.png" width="80" height="80" alt="E-mail"></a>
+          <a href="https://github.com/Ta-tiana"><img src="public/images/github.png" width="80" height="80" alt="GitHub"></a>
+          <a href="https://discord.gg/5yt2cV"><img src="public/images/discord.png" width="80" height="80" alt="Discord"></a>
+        </nav>
+      </header>
+      <main>
+        <article>
+          <h2 class="cv">Curriculum Vitae</h2>
+          <section>
+            <h2>Goals:</h2>
+            <ul>
+              <li>development in the field of information technology, in particular - front-end;</li>
+              <li>personal qualities: polite, helpful, hard-working.</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Skills:</h2>
+            <ul>
+              <li>HTML Basic,</li>
+              <li>CSS Basic,</li>
+              <li>Javascript Basic,</li>
+              <li>Photoshop, CorelDraw.</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Code examples:</h2>
+            <figure>
+              <figcaption>
+                <p>Find numbers which are divisible by given number:</p>
+              </figcaption>
+              <pre>
+                  <code>
+                      function divisibleBy(numbers, divisor) {
+                      &emsp;return numbers.filter((x) => !(x % divisor));
+                      }
+                  </code>
+              </pre>
+            </figure>
+            <figure>
+              <figcaption>
+                <p>Incrementer:</p>
+              </figcaption>
+              <pre>
+                  <code>
+                      function incrementer(nums) {
+                       &emsp;return nums.map((item, index) => {
+                       &emsp; &emsp;const num = item + ++index;
+                       &emsp; &emsp; &emsp;return num &lt; 10 ? num : num % 10;
+                       &emsp;});
+                      }
+                  </code>
+              </pre>
+            </figure>
+          </section>
+          <section>
+            <h2>Experience:</h2>
+            <ul>
+              <li>Coding Challenges on
+                <a href="https://www.codewars.com/users/Ta-tiana"><span>Codewars</span></a>
+              </li>
+              <li>Freeform projects on
+                <a href="https://www.codecademy.com/profiles/py9457776004"><span>Codecademy</span></a>
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h2>Education:</h2>
+            <ul>
+              <li>Republican Institute for Advanced Studies and Retraining of Employees of the Ministry of Labor
+                and Social Protection. Software Information Systems - Software engineer</li>
+              <li>Belarusian State Academy of Arts. Department of Design and Applied Arts, Virtual Design - Designer</li>
+              <li>Institute of Business and Technology Management BSU. Web-design and computer graphics - Web-designer</li>
+              <li>Belarusian State Pedagogical University named after  M. Tank. Faculty of Aesthetic Education, Fine Arts, Drawing and Folk Arts - artist</li>
+              <li>Interactive courses by
+                <a href="https://www.codecademy.com">Codecademy</a>:
+                <ul>
+                  <li>"Introduction to HTML"</li>
+                  <li>"Learn "CSS"</li>
+                  <li>"Learn Git"</li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h2>English level:</h2>
+            <p>Pre-Intermediate(courses "Step by step")</p>
+          </section>
+        </article>
+      </main>
+    </div>
+  </body>
+</html>
